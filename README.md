@@ -1,4 +1,4 @@
-### dMRI image analysis documentation and resources for the Benitez/Jensen lab.
+### MRI analysis documentation and resources for the Benitez lab.
 
 ###### 01_Basics - General guides applicable to most image analysis projects
 ###### 02_Extras - Additional guides for specific pipelines/needs
