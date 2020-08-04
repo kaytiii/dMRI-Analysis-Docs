@@ -1,5 +1,5 @@
 
-#### MRI analysis documentation and resources for the Benitez lab.
+### MRI analysis documentation and resources for the Benitez lab.
 
 <html>
 <img src="https://momentousinstitute.org//assets/site/blog/Brain-Under-Construction.jpg", width="200", height="150">
