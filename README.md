@@ -1,4 +1,5 @@
 <html>
+<body>
 MRI analysis documentation and resources for the Benitez lab.
 
 <img src="https://momentousinstitute.org//assets/site/blog/Brain-Under-Construction.jpg", width="200", height="150">
@@ -12,4 +13,5 @@ Contents:
 03_References - Papers and user guides about specific pipelines and software 
 04_Exercises - Practice exercises for learning image analysis techniques
 05_Scripts - General scripts useful for common image analysis techniques
+</body>
 </html>
