@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>Advanced Settings</Title>
+</HEAD>
+<BODY>
+<h2>Advanced Settings</h2>
+
+<h3>DKI Processing</h3>
+<p>Check this box to enable DKI processing (default: checked).</p>
+
+<h4>DKI Fitting Method</h4>
+<p>Select the DKI model fitting method. Select directional to apply directional signal fitting or tensor to apply tensor fitting (default: tensor). 
+<p>Directional fitting methods are the linear unweighted and linear weighted schemes (default: weighted). Weighting is based on the diffusion signal magnitude.
+<p>Tensor fitting methods are the constrained linear weighted, unconstrained linear unweighted, and unconstrained nonlinear schemes (default: constrained).
+<p>Check the robust fitting box to apply a RESTORE-type algorithm (Chang et al. (2005)) (outlier detection and removal followed by tensor refitting) for tensor fitting. Tolerance to outliers is controlled with the user-supplied noise tolerance parameter.
+
+<h3>DTI Processing</h3>
+<p>Check this box to enable DTI processing (default: unchecked).</p>
+
+<h4>DTI Fitting Method</h4>
+<p>Select the DTI model fitting method. Select directional to apply directional signal fitting or tensor to apply tensor fitting (default: tensor). 
+<p>Directional fitting methods are the linear unweighted and linear weighted schemes (default: weighted). Weighting is based on the diffusion signal magnitude.
+<p>Tensor fitting methods are the linear weighted and linear unweighted schemes (default: weighted).
+<p>Check the robust fitting box to apply a RESTORE-type algorithm (Chang et al. (2005)) (outlier detection and removal followed by tensor refitting) for tensor fitting. Tolerance to outliers is controlled with the user-supplied noise tolerance parameter.
+<p>Specify the nonzero b-value for DTI fitting in the B-value box.</p>
+
+<h4>Co-register Scans</h4>
+<p>Check this box to enable rigid-body co-registration of DKI series. This only applies to DICOM images.</p>
+
+</BODY>
+</HTML>

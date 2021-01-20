@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>Basic Settings</Title>
+</HEAD>
+<BODY>
+<h2>Basic Settings</h2>
+
+<h4>B = 0 Threshold</h4>
+<p>Background threshold. Voxels with b = 0 intensity values above this threshold (after optional connected component analysis) are processed.</p>
+
+<h4>Additional B = 0 acquisitions</h4>
+<p>Check this box to indicate that there is an additional b = 0 series. This setting only applies to DICOM images.
+
+<h4>Median Filtering</h4>
+<p>Selective median filtering applied to parametric maps (default: strong filtering). An outlier removal median filter with a 3x3x3 voxel window is applied to voxels that violate the minimum directional kurtosis constraints. Strong filtering indicates that filtering will be applied to voxels with any constraint violation. Weak filtering indicates that median filtering will be applied to voxels with less that 15 unviolated constraints. No filtering will disable the median filter.</p>
+
+<h4>DWI Spatial Smoothing</h4>
+<p>Check this box to apply spatial smoothing to diffusion-weighted images prior to estimation of parametric maps (default: checked). This is accomplished with a linear filter with a Gaussian kernel.</p>
+
+<h4>FWHM</h4>
+<p>Full width at half maximum in mm for the Gaussian smoothing filter. An isotropic FWHM of roughly 1.25 times the voxel size is recommended.</p>
+
+<h4>B-values</h4>
+<p>Diffusion weightings (b-values) in s/mm<sup>2</sup>. The first element of the vector must always be 0.</p>
+
+<h4>Interpolate</h4>
+<p>Check this box to apply linear interpolation to the parametric maps (default: checked).</p>
+
+<h4>Gradient Vectors</h4>
+<p>Select the gradient table from a list of available tables or specify a custom table.</p>
+
+</BODY>
+</HTML>

@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>Getting started</Title>
+</HEAD>
+
+<BODY>
+<H2>Getting started with DKE</H2>
+<a name="filemenuitem"><H3>File menu</H3>
+
+<p>
+<ul>
+<li><a href="#loadalldicoms">Load all DICOMs in a directory</a></li>
+<li><a href="#load4dnifti">Load 4D Nifti</a></li>
+<li><a href="#saveparameters">Save Parameters</a></li>
+<li><a href="#exit">Exit</a></li>
+</ul>
+</p>
+
+<a name="loadalldicoms"><h4>Load all DICOMs in a directory</h4></a>
+<p>
+Describe how to load a collection of DICOM images stored in a single directory.
+</p>
+
+<a name="load4dnifti"><h4>Load a 4D Nifti image</h4></a>
+<p>
+Describe how to load a single 4D Nifti image.
+</p>
+
+<a name="saveparameters"><h4>Save parameters</h4></a>
+<p>
+If this menu item is chosen, the current parameter settings in the GUI are written to a text file.
+</p>
+
+<a name="exit"><h4>Exit</h4></a>
+<p>
+Exit the program.
+</p>
+
+
+<a name="helpmenuitem"><H3>Help menu</H3>
+
+<p>
+<ul>
+<li><a href="#onlinedocumentation">Online documentation</a></li>
+<p>
+Displays online documentation.
+</p>
+
+<li><a href="#showhelp"></a>Display DKE help</li>
+<p>
+Displays this help file
+</p>
+
+<li><a href="#aboutdke">About DKE</a></li>
+<p>
+Displays information about the DKE software.
+</p>
+
+</ul>
+</p>
+
+<p>
+<a href="Project.htm">Go back to the top</a>
+</p>
+
+</BODY>
+</HTML>

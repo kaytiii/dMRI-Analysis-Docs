@@ -1,0 +1,1613 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List href="DKEParameterFileHelp_files/filelist.xml">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>MVanHorn</o:Author>
+  <o:LastAuthor>MVanHorn</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>584</o:TotalTime>
+  <o:Created>2012-08-03T12:02:00Z</o:Created>
+  <o:LastSaved>2012-08-03T12:10:00Z</o:LastSaved>
+  <o:Pages>4</o:Pages>
+  <o:Words>2631</o:Words>
+  <o:Characters>15001</o:Characters>
+  <o:Company>Microsoft</o:Company>
+  <o:Lines>125</o:Lines>
+  <o:Paragraphs>35</o:Paragraphs>
+  <o:CharactersWithSpaces>17597</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="DKEParameterFileHelp_files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="DKEParameterFileHelp_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>140</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073743103 0 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520092929 1073786111 9 0 415 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:modern;
+	mso-font-pitch:fixed;
+	mso-font-signature:-520092929 1073806591 9 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+h2
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 2 Char";
+	mso-style-next:Normal;
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:13.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;}
+h3
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 3 Char";
+	mso-style-next:Normal;
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:11.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;}
+h4
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 4 Char";
+	mso-style-next:Normal;
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:11.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-style:italic;}
+h5
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 5 Char";
+	mso-style-next:Normal;
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	mso-pagination:widow-orphan lines-together;
+	page-break-after:avoid;
+	mso-outline-level:5;
+	font-size:11.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#243F60;
+	mso-themecolor:accent1;
+	mso-themeshade:127;
+	font-weight:normal;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Plain Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	font-family:Consolas;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;}
+span.MsoPlaceholderText
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	color:gray;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 3";
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;}
+span.Heading4Char
+	{mso-style-name:"Heading 4 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 4";
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;
+	font-style:italic;}
+span.Heading5Char
+	{mso-style-name:"Heading 5 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 5";
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#243F60;
+	mso-themecolor:accent1;
+	mso-themeshade:127;}
+span.PlainTextChar
+	{mso-style-name:"Plain Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Plain Text";
+	mso-ansi-font-size:10.5pt;
+	mso-bidi-font-size:10.5pt;
+	font-family:Consolas;
+	mso-ascii-font-family:Consolas;
+	mso-hansi-font-family:Consolas;
+	mso-bidi-font-family:Consolas;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:152452313;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1334197506 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-start-at:0;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US style='tab-interval:.5in'>
+
+<div class=WordSection1>
+
+<h2>Paths</h2>
+
+<h5><span class=SpellE><span class=GramE>studydir</span></span></h5>
+
+<p class=MsoNormal>Root folder for data from all study subjects.</p>
+
+<h5><span class=SpellE>subject_list</span></h5>
+
+<p class=MsoNormal><span class=GramE>Cell array of subject sub-folders within
+the root folder (i.e. the <span class=SpellE>studydir</span>).</span></p>
+
+<h2>Preprocessing parameters </h2>
+
+<h5><span class=SpellE>preprocess_options.format</span></h5>
+
+<p class=MsoNormal>The input image format can be either '<span class=SpellE>dicom</span>'
+or '<span class=SpellE>nifti</span>' (default: '<span class=SpellE>dicom</span>').</p>
+
+<h5><span class=SpellE>preprocess_options.navg</span></h5>
+
+<p class=MsoNormal>Number of DKI series (default: 2). Each DKI series must
+contain a b = 0 image followed by diffusion-weighted images. All series must
+use identical acquisition protocols (i.e. same diffusion weightings and gradient
+directions).</p>
+
+<h5>preprocess_options.extra_b0</h5>
+
+<p class=MsoNormal>Determines whether (1) or not (0) there is an additional b =
+0 series (default: 1). <span class=GramE>This</span> setting is only used when <span
+class=SpellE>preprocess_options.format</span> = '<span class=SpellE>dicom</span>'.</p>
+
+<h5><span class=SpellE>preprocess_options.coreg_flag</span></h5>
+
+<p class=MsoNormal>Determines whether (1) or not (0) to perform 6-parameter
+rigid-body co-registration between diffusion-weighted images (default: 1). <span
+class=GramE>This</span> setting is only used when <span class=SpellE>preprocess_options.format</span>
+= '<span class=SpellE>dicom</span>'.</p>
+
+<h5><span class=SpellE>preprocess_options.series_description</span> =
+{'DKI1_3.0mm' 'DKI_B0_3.0mm'}</h5>
+
+<p class=MsoNormal>This is a list of DICOM series descriptions from the DICOM
+image headers. The series descriptions are only used when <span class=SpellE>preprocess_options.format</span>
+= '<span class=SpellE>dicom</span>'.</p>
+
+<h5><span class=SpellE>preprocess_options.fn_nii</span></h5>
+
+<p class=MsoNormal>4D <span class=SpellE>nifti</span> image file name.
+Co-registration is not performed between the diffusion-weighted images. This
+setting is only used if <span class=SpellE>preprocess_options.format</span> = '<span
+class=SpellE>nifti</span>'.</p>
+
+<h2>Estimation parameters</h2>
+
+<h3>Diffusion-weighted images</h3>
+
+<h5><span class=SpellE><span class=GramE>bval</span></span></h5>
+
+<p class=MsoNormal><span class=GramE>Diffusion weightings (b-values) in s/mm<sup>2</sup>
+units.</span> The first element of vector should always be 0. For example if
+b-values of 500, 1000, 1500, and 2000 were used, <span class=SpellE>bval</span>
+would be [0 500 1000 1500 2000].</p>
+
+<h5><span class=SpellE><span class=GramE>ndir</span></span></h5>
+
+<p class=MsoNormal><span class=GramE>Number of gradient directions.</span> If a
+scalar value is specified, the number of gradient directions for all b-values
+is set to the scalar. Otherwise, a 1-by-(<span class=SpellE>nbval</span> - 1)
+vector should be specified, with each element of the vector corresponding to
+the number of gradient directions for a nonzero b-value.</p>
+
+<h2>Gradient directions</h2>
+
+<h5><span class=SpellE>fn_gradients</span></h5>
+
+<p class=MsoNormal>This is a text file containing the gradient vectors. Each
+row corresponds to a gradient vector. If a different gradient set was used for
+each b-value, a 1-by-(nbval-1) cell array of file names should be specified,
+with each cell specifying the gradient file name for the corresponding nonzero
+b-value</p>
+
+<h5><span class=SpellE>idx_gradients</span></h5>
+
+<p class=MsoNormal>Indices of gradient directions to be used for DKI map
+estimation. Unacceptable diffusion-weighted images (e.g., those affected by
+motion or patient table vibration-induced diffusion signal loss) can be
+excluded here. There must be as many cells as there are nonzero b-values, with
+each cell corresponding to a nonzero b-value.</p>
+
+<h5>idx_1st_img</h5>
+
+<p class=MsoNormal>Index of the first diffusion-weighted <span class=SpellE>nifti</span>
+image for each b-value (typically 0 or 1, default: 1). <span class=GramE>This</span>
+is only used when <span class=SpellE>preprocess_options.format</span> = '<span
+class=SpellE>dicom</span>' and is rarely changed.</p>
+
+<h2>Constraints on directional kurtoses</h2>
+
+<h5><span class=SpellE>Kmin</span></h5>
+
+<p class=MsoNormal>Constraint on minimum directional kurtosis described in
+Tabesh et al. (2011) (default 0). This setting is rarely changed.</p>
+
+<h5><span class=SpellE>NKmax</span></h5>
+
+<p class=MsoNormal><span class=GramE>Maximum directional kurtosis constraint,
+eq. 6 in Tabesh et al. (2011) (default 3).</span> This is rarely changed.</p>
+
+<h2>Thresholds on output kurtosis maps</h2>
+
+<h5><span class=SpellE>Kmin_final</span>, <span class=SpellE>Kman_final</span></h5>
+
+<p class=MsoNormal>Lower (<span class=SpellE>Kmin_final</span>) and upper (<span
+class=SpellE>Kmax_final</span>) thresholds applied to output (mean, axial, and
+radial) kurtosis maps. The default values are 0 and 3, respectively.</p>
+
+<h2>Tissue/background segmentation</h2>
+
+<h5>T</h5>
+
+<p class=MsoNormal>Background threshold (default: 50); only voxels with b = 0
+values above this threshold (after optional connected component analysis) are
+processed.</p>
+
+<h5><span class=SpellE>find_brain_mask_flag</span> </h5>
+
+<p class=MsoNormal><span class=SpellE>Detemines</span> whether (1) or not (0)
+to apply connected component analysis to refine the binary brain mask obtained
+by applying threshold T to b = 0 <span class=GramE>image</span> (default: 1).</p>
+
+<h2>DKI fitting method and parameters</h2>
+
+<h5><span class=SpellE>dki_method.no_tensor</span></h5>
+
+<p class=MsoNormal>Determines whether (1) or not (0) to estimate parametric
+maps using directional signal fits instead of the default tensor fit described
+in Tabesh et al. (2011) (default: 0). Directional fits (i.e. <span
+class=SpellE>dki_method.no_tensor</span> = 1) only allow estimation of mean
+diffusivity and mean kurtosis. This is not recommended unless the number of
+acquired gradient directions is less than 15.</p>
+
+<h5><span class=SpellE>dki_method.linear_weighting</span></h5>
+
+<p class=MsoNormal><span class=SpellE>Unweighted</span> (0) or weighted (1)
+linear least-squares (default: 1)</p>
+
+<h5><span class=SpellE>dki_method.linear_constrained</span></h5>
+
+<p class=MsoNormal>Unconstrained (0) or constrained (1) linear least-squares
+Tabesh et al. (2011) (default: 1).</p>
+
+<h5><span class=SpellE>dki_method.nonlinear</span> </h5>
+
+<p class=MsoNormal>Unconstrained nonlinear least-squares (default: 0)</p>
+
+<h5><span class=SpellE>dki_method.linear_violations</span></h5>
+
+<p class=MsoNormal>Whether (1) or not (0) to generate maps of constraint
+violations (default: 0); intensity of each voxel represents the proportion of
+constraints on directional diffusivities ('<span class=SpellE>d_viol</span>' map)
+and kurtoses ('<span class=SpellE>kmin_viol</span>' and '<span class=SpellE>kmax_viol</span>'
+maps) violated by the unconstrained linear least-squares solution</p>
+
+<h5><span class=SpellE>dki_method.robust_option</span></h5>
+
+<p class=MsoNormal>Robust fitting option (default: 0): (0) do not use robust
+fitting; (1) RESTORE-type algorithm (outlier detection and removal followed by
+tensor refitting) with a user-supplied 'noise tolerance level'. <span
+class=SpellE><span class=GramE>dki_method.noise_tolerance</span></span> is
+expressed as a fraction of the diffusion signal level.</p>
+
+<h5><span class=SpellE>dki_method.noise_tolerance</span></h5>
+
+<p class=MsoNormal>Threshold for outlier detection (used when <span
+class=SpellE>dki_method.robust_option</span> = 1). The diffusion signal for a
+gradient direction is declared an outlier if<span style='mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:minor-fareast'>.</span></p>
+
+<h2>DTI fitting method and parameters</h2>
+
+<h5><span class=SpellE>dti_method.dti_flag</span></h5>
+
+<p class=MsoNormal>Whether (1) or not (0) to estimate DTI parametric maps based
+on the DTI signal model (default: 0)</p>
+
+<h5><span class=SpellE>dti_method.dti_only</span></h5>
+
+<p class=MsoNormal>Whether (1) or not (0) to only estimate DTI parametric maps
+(no DKI map estimation) (default: 0)</p>
+
+<h5><span class=SpellE>dti_method.no_tensor</span></h5>
+
+<p class=MsoNormal>Whether (1) or not (0) to estimate parametric maps using
+directional signal fits instead of the default diffusion tensor fit (default:
+0); directional fits only allow estimation of mean diffusivity; not recommended
+unless the number of acquired gradient directions is less than 6</p>
+
+<h5><span class=SpellE>dti_method.linear_weighting</span></h5>
+
+<p class=MsoNormal><span class=SpellE>Unweighted</span> (0) or weighted (1)
+linear least-squares (default: 1). Weighting is based on the diffusion signal
+magnitude.</p>
+
+<h5><span class=SpellE>dti_method.b_value</span></h5>
+
+<p class=MsoNormal>Nonzero b-values used for DTI map estimation.</p>
+
+<h5><span class=SpellE>dti_method.directions</span></h5>
+
+<p class=MsoNormal>Indices of gradient directions to be used for DTI map
+estimation. Unacceptable diffusion-weighted images (e.g. those affected by with
+motion- or patient table vibration-induced diffusion signal loss) can be
+excluded here. There must be as many cells as there are nonzero b-values, with
+each cell corresponding to a nonzero b-value. Indices are relative to the
+indices specified in <span class=SpellE>idx_gradients</span>.</p>
+
+<h5><span class=SpellE>dti_method.robust_option</span></h5>
+
+<p class=MsoNormal>Robust fitting option (default: 0): (0) do not use robust
+fitting; (1) RESTORE-type algorithm (outlier detection and removal followed by
+tensor refitting) with a user-supplied 'noise tolerance level'. <span
+class=SpellE><span class=GramE>dti_method.noise_tolerance</span></span> is
+expressed as a fraction of the diffusion signal level.</p>
+
+<h5><span class=SpellE>dti_method.noise_tolerance</span></h5>
+
+<p class=MsoNormal>Threshold for outlier detection (used when <span
+class=SpellE>dti_method.robust_option</span> = 1). The diffusion signal for a
+gradient direction is declared an outlier if<span style='mso-fareast-font-family:
+"Times New Roman";mso-fareast-theme-font:minor-fareast'>.</span></p>
+
+<h2>Diffusion-weighted image filtering</h2>
+
+<h5><span class=SpellE>fwhm_img</span></h5>
+
+<p class=MsoNormal><span class=GramE>Gaussian kernel size (full width at half
+maximum (FWHM) in mm) for smoothing diffusion-weighted images.</span> The
+default values are 1.25 * voxel size. A zero value indicates no smoothing.</p>
+
+<h2><span class=SpellE>Rician</span> noise subtraction</h2>
+
+<h5><span class=SpellE>fn_noise</span></h5>
+
+<p class=MsoNormal>User-supplied estimate of <span class=SpellE>Rician</span>
+noise image (default: ‘’, i.e. empty string). Noise subtraction is based on the
+method of McGibney and Smith (1993).</p>
+
+<h5><span class=SpellE>fwhm_noise</span></h5>
+
+<p class=MsoNormal>FWHM (in mm) of Gaussian kernel for smoothing noise image; a
+zero value indicates no smoothing (default: 0).</p>
+
+<h2>Parametric map filtering</h2>
+
+<h5><span class=SpellE>median_filter_method</span></h5>
+
+<p class=MsoNormal>Selective median filtering is applied to voxels that violate
+the minimum directional kurtosis constraints (default: 2 – strong filtering).</p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
+style='mso-list:Ignore'>0.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>No filtering.</p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
+style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Weak filtering (voxels with less than 15 <span
+class=SpellE>unviolated</span> constraints will be filtered).</p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l0 level1 lfo2'><![if !supportLists]><span
+style='mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin'><span
+style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]>Strong filtering (voxels with any constraint
+violation will be filtered).</p>
+
+<h2>Parametric map interpolation</h2>
+
+<h5><span class=SpellE>map_interpolation_method.flag</span></h5>
+
+<p class=MsoNormal>Whether (1) or not (0) to interpolate the parametric maps
+(default: 1).</p>
+
+<h5><span class=SpellE>map_interpolation_method.order</span></h5>
+
+<p class=MsoNormal>Interpolation polynomial order: (0) nearest neighbor; (1) <span
+class=SpellE>trilinear</span>; (2 and up) higher order (default: 1).</p>
+
+<h5><span class=SpellE>map_interpolation_method.resolution</span></h5>
+
+<p class=MsoNormal>Target resolution (isotropic) in mm of the interpolated maps
+(default: 1 mm).</p>
+
+<p class=MsoNormal>*** Note that the statements described use MATLAB syntax in
+the DKE parameters file. ***</p>
+
+<h2>Sample DKE Parameter File</h2>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+-------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+Paths<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+-------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+root folder for data from all study subjects<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span class=GramE><span
+style='font-size:8.0pt;font-family:"Courier New"'>studydir</span></span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 'Y:/<span class=SpellE>Play_Area</span>/<span
+class=SpellE>atabesh</span>/<span class=SpellE>Data_MUSC</span>/Data_MUSC_32channel_20120614';<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+cell array of subject sub-folders within the root folder (<span class=SpellE>studydir</span>)<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>subject_list</span></span><span style='font-size:
+8.0pt;font-family:"Courier New"'> = {''};<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+-------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+<span class=GramE>Preprocessing</span> parameters <o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+-------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>preprocess_options.format</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = '<span class=SpellE>nifti</span>';<span
+style='mso-spacerun:yes'>        </span>% input image format ('<span
+class=SpellE>dicom</span>' or '<span class=SpellE>nifti</span>') (default: '<span
+class=SpellE>dicom</span>')<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>preprocess_options.navg</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 2;<span
+style='mso-spacerun:yes'>                </span>% number of DKI series
+(default: 2); each DKI series must contain a b = 0 image followed by
+diffusion-weighted images; all series must use identical acquisition protocols
+(i.e., same diffusion weightings and gradient directions)<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>preprocess_options.extra_b0
+= 1;<span style='mso-spacerun:yes'>            </span>% whether (1) or not (0)
+there is an additional b = 0 series (default: 1); used when <span class=SpellE>preprocess_options.format</span>
+= '<span class=SpellE>dicom</span>'<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>preprocess_options.coreg_flag</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 1;<span
+style='mso-spacerun:yes'>          </span>% whether (1) or not (0) to perform
+6-parameter rigid-body <span class=SpellE>coregistration</span> between
+diffusion-weighted images (default: 1); used when <span class=SpellE>preprocess_options.format</span>
+= '<span class=SpellE>dicom</span>'<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>preprocess_options.series_description</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = {'DKI1_3.0mm'
+'DKI_B0_3.0mm'}<span class=GramE>;<span style='mso-spacerun:yes'>  </span>%</span>
+list of <span class=SpellE>dicom</span> series descriptions; used when <span
+class=SpellE>preprocess_options.format</span> = '<span class=SpellE>dicom</span>'<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>preprocess_options.fn_nii</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = '4d.nii';<span
+style='mso-spacerun:yes'>   </span><span style='mso-spacerun:yes'>    </span>%
+four-dimensional <span class=SpellE>nifti</span> image file name; no <span
+class=SpellE>coregistration</span> is performed between the diffusion-weighted
+images; used when <span class=SpellE>preprocess_options.format</span> = '<span
+class=SpellE>nifti</span>'<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+-------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+Estimation parameters<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+-------------------------------------------<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+diffusion-weighted images<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span class=GramE><span
+style='font-size:8.0pt;font-family:"Courier New"'>bval</span></span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = [0 500 1000 1500
+2000];<span style='mso-spacerun:yes'>              </span>% diffusion
+weightings (b-values) in s/mm^2 units; the first element of vector should
+always be 0<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>ndir</span></span><span style='font-size:8.0pt;
+font-family:"Courier New"'> = 64;<span
+style='mso-spacerun:yes'>                                  </span>% number of
+gradient directions; if a scalar value is specified, the number of gradient
+directions for all b values is set to the scalar; otherwise, a 1-by-(nbval-1)
+vector should be specified, with each element of the vector corresponding to
+the number of gradient directions for a nonzero b-value<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+gradient directions<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>fn_gradients</span></span><span style='font-size:
+8.0pt;font-family:"Courier New"'> = 'gradient_vectors_siemens64.dat';<span
+style='mso-spacerun:yes'>    </span>% text file containing the gradient
+vectors; each row corresponds to a gradient vector; if a different gradient set
+was used for each b-value, a 1-by-(nbval-1) cell array of file names should be
+specified, with each cell specifying the gradient file name for the
+corresponding nonzero b-value<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'>                                                   
+</span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>idx_gradients</span></span><span style='font-size:
+8.0pt;font-family:"Courier New"'> = {1:ndir <span class=SpellE>1:ndir</span> <span
+class=SpellE>1:ndir</span> 1:ndir};<span style='mso-spacerun:yes'>     
+</span>% indices of gradient directions to be used for DKI map estimation;
+unacceptable diffusion-weighted images (e.g., those affected by motion- or
+patient table vibration-induced diffusion signal loss) can be excluded here;
+there must be as many cells as there are nonzero b-values, with each cell
+corresponding to a nonzero b-value<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>idx_1st_img
+= 1;<span style='mso-spacerun:yes'>                            </span>% index
+of the first diffusion-weighted <span class=SpellE>nifti</span> image for each
+b-value (typically 0 or 1) (default: 1); used when <span class=SpellE>preprocess_options.format</span>
+= '<span class=SpellE>dicom</span>'; this is rarely changed<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'>                                        </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+constraints on directional kurtoses<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>Kmin</span></span><span style='font-size:8.0pt;
+font-family:"Courier New"'> = 0;<span
+style='mso-spacerun:yes'>                                   </span>% constraint
+on minimum directional kurtosis (cf. Tabesh et al. (2011)) (default: 0); this
+is rarely changed<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>NKmax</span></span><span style='font-size:8.0pt;
+font-family:"Courier New"'> = 3;<span
+style='mso-spacerun:yes'>                                  </span>% parameter
+defining the constraint on maximum directional kurtosis (cf. Eq. 6 in Tabesh et
+al. (2011)); this is rarely changed<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+thresholds on output kurtosis maps<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>Kmin_final</span></span><span style='font-size:8.0pt;
+font-family:"Courier New"'> = 0;<span
+style='mso-spacerun:yes'>                            </span><span
+style='mso-spacerun:yes'> </span>% lower (<span class=SpellE>Kmin_final</span>)
+and upper (<span class=SpellE>Kmax_final</span>) thresholds applied to output
+(mean, axial, and radial) kurtosis maps<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>Kmax_final</span></span><span style='font-size:8.0pt;
+font-family:"Courier New"'> = 3;<span
+style='mso-spacerun:yes'>                         </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+tissue/background segmentation<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>T
+= 50;<span style='mso-spacerun:yes'>                                    
+</span>% background threshold (default: 50); only voxels with b = 0 values
+above this threshold (after optional connected component analysis) are
+processed<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>find_brain_mask_flag</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 1;<span
+style='mso-spacerun:yes'>                   </span>% whether (1) or not (0) to
+apply connected component analysis to refine the binary brain mask obtained by
+applying threshold T to b = 0 <span class=GramE>image</span> (default: 1)<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+DKI fitting method and parameters<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>dki_method.no_tensor</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 0;<span
+style='mso-spacerun:yes'>                   </span>% whether (1) or not (0) to
+estimate parametric maps using directional signal fits instead of the default
+tensor fit of Tabesh et al. (2011) (default: 0); directional fits only allow
+estimation of mean diffusivity and mean kurtosis; not recommended unless the
+number of acquired gradient directions is less than 15<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>dki_method.linear_weighting</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 1;<span
+style='mso-spacerun:yes'>            </span>% <span class=SpellE>unweighted</span>
+(0) or weighted (1) linear least-squares (default: 1)<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>dki_method.linear_constrained</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 1;<span
+style='mso-spacerun:yes'>          </span>% unconstrained (0) or constrained
+(1) linear least-squares (cf. Tabesh et al. (2011)) (default: 1)<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>dki_method.nonlinear</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 0;<span
+style='mso-spacerun:yes'>                   </span>% unconstrained nonlinear
+least-squares (default: 0)<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>dki_method.linear_violations</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 0;<span
+style='mso-spacerun:yes'>           </span>% <span class=GramE>Whether</span>
+(1) or not (0) to generate maps of constraint violations (default: 0);
+intensity of each voxel represents the proportion of constraints on directional
+diffusivities ('<span class=SpellE>d_viol</span>' map) and kurtoses ('<span
+class=SpellE>kmin_viol</span>' and '<span class=SpellE>kmax_viol</span>' maps)
+violated by the unconstrained linear least-squares solution<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>dki_method.robust_option</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 0;<span
+style='mso-spacerun:yes'>               </span>% robust fitting option
+(default: 0): (0) do not use robust fitting; (1) RESTORE-type algorithm
+(outlier detection and removal followed by tensor refitting) with a
+user-supplied 'noise tolerance level' (<span class=SpellE>dki_method.noise_tolerance</span>)
+expressed as a fraction of the diffusion signal level<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>dki_method.noise_tolerance</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 0.09;<span
+style='mso-spacerun:yes'>          </span>% threshold for outlier detection
+(used when <span class=SpellE>dki_method.robust_option</span> = 1); the
+diffusion signal for a gradient direction is declared an outlier if <span
+class=GramE>abs(</span>log(diffusion signal) - log(predicted diffusion signal))
+&gt; <span class=SpellE>dki_method.noise_tolerance</span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+DTI fitting method and parameters<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>dti_method.dti_flag</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 0;<span
+style='mso-spacerun:yes'>                    </span>% whether (1) or not (0) to
+estimate DTI parametric maps based on the DTI signal model (default: 0)<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>dti_method.dti_only</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 0;<span
+style='mso-spacerun:yes'>                    </span>% whether (1) or not (0) to
+only estimate DTI parametric maps (no DKI map estimation) (default: 0)<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>dti_method.no_tensor</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 0;<span
+style='mso-spacerun:yes'>                   </span>% whether (1) or not (0) to
+estimate parametric maps using directional signal fits instead of the default
+diffusion tensor fit (default: 0); directional fits only allow estimation of
+mean diffusivity; not recommended unless the number of acquired gradient
+directions is less than 6<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>dti_method.linear_weighting</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 1;<span
+style='mso-spacerun:yes'>            </span>% <span class=SpellE>unweighted</span>
+(0) or weighted (1) linear least-squares (default: 1); weighting is based on
+the diffusion signal magnitude<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>dti_method.b_value</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 1000;<span
+style='mso-spacerun:yes'>                  </span>% vector of nonzero b-values
+used for DTI map estimation<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>dti_method.directions</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = {1<span class=GramE>:ndir</span>};<span
+style='mso-spacerun:yes'>           </span>% indices of gradient directions to
+be used for DTI map estimation; unacceptable diffusion-weighted images (e.g.,
+those affected by with motion- or patient table vibration-induced diffusion
+signal loss) can be excluded here; there must be as many cells as there are
+nonzero b-values, with each cell corresponding to a nonzero b-value; indices
+are relative to the indices specified in <span class=SpellE>idx_gradients</span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>dti_method.robust_option</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 0;<span
+style='mso-spacerun:yes'>               </span>% robust fitting option
+(default: 0): (0) do not use robust fitting; (1) RESTORE-type algorithm
+(outlier detection and removal followed by tensor refitting) with a
+user-supplied 'noise tolerance level' (<span class=SpellE>dti_method.noise_tolerance</span>)
+expressed as a fraction of the diffusion signal level<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>dti_method.noise_tolerance</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 0.09;<span
+style='mso-spacerun:yes'>      </span><span
+style='mso-spacerun:yes'>    </span>% threshold for outlier detection (used
+when <span class=SpellE>dti_method.robust_option</span> = 1); the diffusion
+signal for a gradient direction is declared an outlier if <span class=GramE>abs(</span>log(diffusion
+signal) - log(predicted diffusion signal)) &gt; <span class=SpellE>dti_method.noise_tolerance</span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+diffusion-weighted image filtering<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>fwhm_img</span></span><span style='font-size:8.0pt;
+font-family:"Courier New"'> = 1.25 * [2.7 2.7 2.7];<span
+style='mso-spacerun:yes'>            </span>% full width at half maximum (FWHM)
+(in mm) of Gaussian kernel for smoothing diffusion-weighted images (default:
+1.25 * voxel size); a zero value indicates no smoothing<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+<span class=SpellE>Rician</span> noise subtraction<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>fn_noise</span></span><span style='font-size:8.0pt;
+font-family:"Courier New"'> = '';<span
+style='mso-spacerun:yes'>                              </span>% user-supplied
+estimate of <span class=SpellE>Rician</span> noise image (default: '' (i.e.,
+none)); noise subtraction is based on the method of <span class=SpellE>McGibney</span>
+and Smith (1993)<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>fwhm_noise</span></span><span style='font-size:8.0pt;
+font-family:"Courier New"'> = 0;<span
+style='mso-spacerun:yes'>                             </span>% FWHM (in mm) of
+Gaussian kernel for smoothing noise image; a zero value indicates no smoothing
+(default: 0)<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+parametric map filtering<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>median_filter_method</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 2;<span
+style='mso-spacerun:yes'>                   </span>% selective median filtering
+applied to voxels that violate the minimum directional kurtosis constraints
+(default: 2): (0) no filtering; (1) weak filtering (voxels with less than 15 <span
+class=SpellE>unviolated</span> constraints will be filtered); (2) strong
+filtering (voxels with any constraint violation will be filtered)<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><span
+style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'>%
+parametric map interpolation<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>map_interpolation_method.flag</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 1;<span
+style='mso-spacerun:yes'>          </span>% whether (1) or not (0) to
+interpolate the parametric maps (default: 1)<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>map_interpolation_method.order</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 1;<span
+style='mso-spacerun:yes'>         </span>% interpolation polynomial order: (0)
+nearest neighbor; (1) <span class=SpellE>trilinear</span>; (2 and up) higher
+order (default: 1)<o:p></o:p></span></p>
+
+<p class=MsoPlainText><span style='font-size:8.0pt;font-family:"Courier New"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoPlainText><span class=SpellE><span style='font-size:8.0pt;
+font-family:"Courier New"'>map_interpolation_method.resolution</span></span><span
+style='font-size:8.0pt;font-family:"Courier New"'> = 1;<span
+style='mso-spacerun:yes'>    </span>% target resolution (isotropic) in mm of
+the interpolated maps (default: 1 mm)<o:p></o:p></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
