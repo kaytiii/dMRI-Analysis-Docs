@@ -1,8 +1,0 @@
-cd('C:\Users\Emilie\Documents\DKE\dke_2.6\win32')
-eval('!replace_icon.bat')
-cd('C:\Users\Emilie\Documents\DKE\dke_2.6\win32_internal')
-eval('!replace_icon.bat')
-cd('C:\Users\Emilie\Documents\DKE\dke_2.6\win64')
-eval('!replace_icon.bat')
-cd('C:\Users\Emilie\Documents\DKE\dke_2.6\win64_internal')
-eval('!replace_icon.bat')
