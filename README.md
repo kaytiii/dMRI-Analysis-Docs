@@ -1,10 +1,6 @@
 
 ### MRI analysis documentation and resources for the Benitez lab.
 
-<html>
-<img src="https://momentousinstitute.org//assets/site/blog/Brain-Under-Construction.jpg", width="200", height="150">
-</html>
-
 **Note**: This repo is still under construction. Some documents are unfinished and some, though technically complete, are still subject to change.
 
 **Contents**:
