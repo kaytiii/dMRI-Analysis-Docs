@@ -78,24 +78,6 @@ for ID in $SUBJ_IDs_all ; do
   done
 done
 
-####### Between Subject no FU
-
-for ID in $SUBJ_IDs_nfu ; do
-  dfRightComposeAffine -aff $dtitk_nfu/${ID}_wi_subj.aff -df $dtitk_nfu/${ID}_wi_subj_aff_diffeo.df.nii.gz -out $dtitk_nfu/${ID}_combined.df.nii.gz
-done
-
-for ID in $SUBJ_IDs_nfu ; do
-  for m in dax kax fa dmean kmean drad krad wmm_de_rad wmm_awf ; do
-    TVAdjustVoxelspace -in $scalar/${ID}/${m}.nii -origin 0 0 0 -out $scalar/${ID}/${m}_000.nii
-  done
-done
-
-for ID in $SUBJ_IDs_nfu ; do
-  for m in dax kax fa dmean kmean drad krad wmm_de_rad wmm_awf ; do
-    deformationScalarVolume -in $scalar/${ID}/${m}_000.nii -trans $dtitk_nfu/${ID}_combined.df.nii.gz -target $dtitk_nfu/mean_initial.nii.gz -out $scalar/${ID}/${m}_bs.nii.gz
-  done
-done
-
 ####### skeletonization BLFU
 
 gunzip $scalar/*/*bs.nii.gz
@@ -144,51 +126,3 @@ done
 
 mkdir $ana/03_TBSS/Phase1/DKI/fa/orig 
 mv $ana/03_TBSS/Phase1/DKI/fa/*fa.nii $ana/03_TBSS/Phase1/DKI/fa/orig 
-
-####### skeletonization no FU
-
-mkdir $ana/03_TBSS_noFU
-mkdir $ana/03_TBSS_noFU/Phase1
-mkdir $ana/03_TBSS_noFU/Phase1/DKI
-mkdir $ana/03_TBSS_noFU/Phase1/DKI/fa
-mkdir $ana/03_TBSS_noFU/Phase1/DKI/fa/stats
-
-# make alls 
-for ID in $SUBJ_IDs_nfu ; do
-  cp $scalar/${ID}/fa_bs.nii $ana/03_TBSS_noFU/Phase1/DKI/fa/stats/${ID}_fa_bs.nii
-done
-fslmerge -t $ana/03_TBSS_noFU/Phase1/DKI/fa/stats/all_FA.nii $ana/03_TBSS_noFU/Phase1/DKI/fa/stats/*_fa_bs.nii
-fslmaths $ana/03_TBSS_noFU/Phase1/DKI/fa/stats/all_FA.nii -Tmean $ana/03_TBSS_noFU/Phase1/DKI/fa/stats/mean_FA.nii
-fslmaths $ana/03_TBSS_noFU/Phase1/DKI/fa/stats/mean_FA.nii -bin $ana/03_TBSS_noFU/Phase1/DKI/fa/stats/mean_FA_mask.nii 
-tbss_skeleton -i $ana/03_TBSS_noFU/Phase1/DKI/fa/stats/mean_FA -o $ana/03_TBSS_noFU/Phase1/DKI/fa/stats/mean_FA_skeleton
-
-for ID in $SUBJ_IDs_nfu ; do
-  rm $ana/03_TBSS_noFU/Phase1/DKI/fa/stats/${ID}_fa_bs.nii
-done
-
-# File organization
-for metric_DKI in dax kax fa dmean kmean drad krad ; do
-  mkdir $ana/03_TBSS_noFU/Phase1/DKI/${metric_DKI}
-done
-
-mkdir $ana/03_TBSS_noFU/Phase1/WMM/
-
-for metric_WMM in wmm_de_rad wmm_awf ; do
-  mkdir $ana/03_TBSS_noFU/Phase1/WMM/${metric_WMM}
-done 
-
-for ID in $SUBJ_IDs_nfu ; do  
-  for m in dax kax fa dmean kmean drad krad ; do
-    cp $scalar/${ID}/${m}_bs.nii $ana/03_TBSS_noFU/Phase1/DKI/${m}/${ID}_${m}.nii
-  done
-done
-
-for ID in $SUBJ_IDs_nfu ; do  
-  for m in wmm_de_rad wmm_awf ; do
-    cp $scalar/${ID}/${m}_bs.nii $ana/03_TBSS_noFU/Phase1/WMM/${m}/${ID}_${m}.nii
-  done
-done
-
-mkdir $ana/03_TBSS_noFU/Phase1/DKI/fa/orig 
-mv $ana/03_TBSS_noFU/Phase1/DKI/fa/*fa.nii $ana/03_TBSS_noFU/Phase1/DKI/fa/orig 
-
